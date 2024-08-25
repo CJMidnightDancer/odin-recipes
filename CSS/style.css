@@ -23,11 +23,9 @@ h3 {
     font-size: 35;
 
 }
-ul {
-    color: green;
-    font-size: 21px;
-}
+
 .top-sec {
+    
    
 }
 
@@ -36,4 +34,12 @@ ul {
 }
 .intro {
     font-size: 27;
+}
+.Prolist {
+    color: green;
+    font-size: 21px;
+}
+.smallheader {
+    color:blue
+    
 }
