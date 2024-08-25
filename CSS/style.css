@@ -1,28 +1,39 @@
 body{
-   background-color: black ; 
+   background-color: rgb(241, 198, 142) ; 
    color: white;
    font-size: 21px;
 
 }
-p{
+p {
     color: green;
     font-size: 21px;
 }
-h1 {
+h1  {
 color: red;
 font-size: 50px;
 
 }
-h3{
+h3 {
     color: red;
-    font-size: 35px;
+    font-size: 30px;
      
 }
-h2{
+.recipes-header {
     color: red;
+    font-size: 35;
 
 }
-ul{
+ul {
     color: green;
     font-size: 21px;
+}
+.top-sec {
+   
+}
+
+.bottom-sec {
+
+}
+.intro {
+    font-size: 27;
 }
