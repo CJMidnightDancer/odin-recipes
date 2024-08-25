@@ -1,0 +1,28 @@
+body{
+   background-color: black ; 
+   color: white;
+   font-size: 21px;
+
+}
+p{
+    color: green;
+    font-size: 21px;
+}
+h1 {
+color: red;
+font-size: 50px;
+
+}
+h3{
+    color: red;
+    font-size: 35px;
+     
+}
+h2{
+    color: red;
+
+}
+ul{
+    color: green;
+    font-size: 21px;
+}
