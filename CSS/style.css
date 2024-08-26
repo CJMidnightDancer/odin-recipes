@@ -15,15 +15,11 @@ p {
     font-size: 35;
 
 }
-
-.top-sec {
-   
-   
+.recipes-header > * {
+    width: auto;
 }
 
-.bottom-sec {
-  
-}
+
 .intro {
     font-size: 27;
 }
@@ -35,9 +31,15 @@ p {
     color:blue
     
 }
-.column {
-   
+.flex-container{
+    position: relative;
 }
-.row::after{
+.Sauce_Block {
+
+}
+.Balls_Block{
+  
+}
+.text_D{
 
 }
