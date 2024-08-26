@@ -1,3 +1,4 @@
+
 body{
    background-color: rgb(241, 198, 142) ; 
    color: white;
@@ -8,16 +9,7 @@ p {
     color: green;
     font-size: 21px;
 }
-h1  {
-color: red;
-font-size: 50px;
-
-}
-h3 {
-    color: red;
-    font-size: 30px;
-     
-}
+    
 .recipes-header {
     color: red;
     font-size: 35;
@@ -25,12 +17,12 @@ h3 {
 }
 
 .top-sec {
-    
+   
    
 }
 
 .bottom-sec {
-
+  
 }
 .intro {
     font-size: 27;
@@ -42,4 +34,10 @@ h3 {
 .smallheader {
     color:blue
     
+}
+.column {
+   
+}
+.row::after{
+
 }

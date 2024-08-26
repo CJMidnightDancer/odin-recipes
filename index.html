@@ -8,28 +8,51 @@
 </head>
 
 <body >
-    <h1 >Odin Recipes</h1>
-    <div class="top-sec">
-        <p class ="intro"> Welcome and Thank you, to the Grandpa G Recipes reposity for my <a href="https://www.theodinproject.com/dashboard">Odin Project</a> We are half way through foundations and i thank you all for visiting my page to participate in this journey!</p>
-        <h3>About My Recipes</h3>
-         <p>The Recipes you see below are all Family Recipes that have been passed down for as longer for easily 100+ years, so if you do come by my reposity i'd appricate the support!</p>
-         <p>All of these recipes, like a program are parts of a hole. Start with the sauce and in 5 Hours time youll get your Lasagna!</p>
+    <h1 class = "recipes-header" >Odin Recipes</h1>
+    <div class="top-sec"></div> <!--top box-->
+    <h3 class = "recipes-header" >About My Recipes</h3>
+    <p class ="intro"> Welcome and Thank you, to the Grandpa G Recipes reposity for my <a href="https://www.theodinproject.com/dashboard">Odin Project</a> We are half way through foundations and i thank you all for visiting my page to participate in this journey!
+        The Recipes you see below are all Family Recipes that have been passed down for as longer for easily 100+ years, so if you do come by my reposity i'd appricate the support!
+        all of these recipes, like a program are parts of a hole. Start with the sauce and in 5 Hours time youll get your Lasagna!
+    </p>
     </div>
-
-    <div class="bottom-sec">
     <h2 class = "recipes-header"> Recipe Links</h2>
-    <!--Beginning of Link Tree-->
-            <img src="/home/bobmidnight/repos/odin-recipes/img/italian-sunday-gravy-sugo-6.jpg" height="300px" width="300px">
-            <ul><a href="/home/bobmidnight/repos/odin-recipes/GJS.html">Grandpa G's Tomato Sauce</a></ul>
+    <div class="bottom-sec"> <!--Bottom Box-->
+        <style class="bottom-sec;">
+                div
+                {
+                   display: flex;
+                   justify-content: center;
+                        
+                }
+                img{
+                      width: 400px;  
+                      height:400px;
+                      object-fit: cover;
+                }
+                </style>
+        <div class ="row">
+                <div class ="column">
+                      
+                <img src="/home/bobmidnight/repos/odin-recipes/img/Sauce.jpg" alt="GJS" >
+                 <ul><a href="/home/bobmidnight/repos/odin-recipes/GJS.html">Grandpa G's Tomato Sauce</a></ul>
+        </div>
+                </div>
     <!--Sauce-->
-        <p>----------------------------------------------------------------------------</p>
-            <img src="/home/bobmidnight/repos/odin-recipes/img/MeatBalls.jpg" height="300px" width="300px">
+    <div class ="row">
+        <div class ="column">
+            <img src="/home/bobmidnight/repos/odin-recipes/img/MeatBalls.jpg" alt="GMB">
             <ul><a href="/home/bobmidnight/repos/odin-recipes/MeatBalls.html">Granpa G's Meat Balls</a></ul>
+       </div>
+                </div>
     <!--Balls-->
-        <p>----------------------------------------------------------------------------</p>
-            <img src="/home/bobmidnight/repos/odin-recipes/img/Lesagna.jpg" height="300px" width="300px">
-            <ul><a href="/home/bobmidnight/repos/odin-recipes/Lasagna.html">Granpa G's Lesagna</a></ul>
-    <!----->
+    <div class ="row">
+        <div class ="column">
+            <img src="/home/bobmidnight/repos/odin-recipes/img/lasagna.jpg" alt="LAsagna">
+            <ul><a href="/home/bobmidnight/repos/odin-recipes/Lasagna.html">Granpa G's Lasagna</a></ul>
+        </div>
+                </div>          
+    <!--Lasagna--->
 </div>
 </body>
 </html>
