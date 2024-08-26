@@ -3,17 +3,19 @@ body{
    background-color: rgb(241, 198, 142) ; 
    color: white;
    font-size: 21px;
-
+   
 }
 p {
     color: green;
     font-size: 21px;
+    
 }
     
 .recipes-header {
     color: red;
     font-size: 35;
-
+    text-align: center;
+    margin: 0px;
 }
 .recipes-header > * {
     width: auto;
@@ -32,14 +34,62 @@ p {
     
 }
 .flex-container{
-    position: relative;
+    display: flex;
+    align-items: center ;
+    justify-content:center ;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem
+    
+}
+.flex-container{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    
+}
+.flex-container2{
+    display: flex;
+    align-items: center ;
+    justify-content:center ;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem
+}
+.flex-container2{
+ flex-shrink: 1;
+ flex-grow: 0;
+ flex-wrap: wrap;
+ background-image:url(/home/bobmidnight/repos/odin-recipes/img/Resturant.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.Text_D{
+ height: auto;
+ width: 500px;
+ text-align: center;
+ font-size: 18px;
+ margin: 20px;
+ flex: 2;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color:  rgb(241, 198, 142);
+ 
 }
 .Sauce_Block {
-
+text-align: center;
 }
 .Balls_Block{
-  
+text-align: center;
 }
-.text_D{
+.Lasagna_Block{
+text-align: center;
+height: 500px;
+}
 
-}
